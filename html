@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task 10</title>
+    <link id="theme" rel="stylesheet" type="text/css" href="NoStylesheet.css">
+</head>
+<body>
+    <script src="js.js"></script>
+
+    <div id="main-container">
+        <header>
+            <h1 id="one">Welcome to My Homepage</h1>
+            <p id="two">Use the menu to select different Stylesheets</p>
+        </header>
+
+        <div id="semi-main">
+            <div id="first-container">
+                <nav>
+                    <ul class="inside">
+                        <li><button onclick="toggleTheme('Stylesheet1.css')">Stylesheet 1</button></li>
+                        <li><button onclick="toggleTheme('Stylesheet2.css')">Stylesheet 2</button></li>
+                        <li><button onclick="toggleTheme('Stylesheet3.css')">Stylesheet 3</button></li>
+                        <li><button onclick="toggleTheme('Stylesheet4.css')">Stylesheet 4</button></li>
+                        <li><button onclick="toggleTheme('NoStylesheet.css')">No StyleSheet</button></li>
+                    </ul>
+                </nav>
+
+                <section>
+                    <h2 id="three">Same Page Different Stylesheets</h2>
+                    <p>
+                        This is a demonstration of how different stylesheets can change the layout of your HTML page.
+                        You can change the layout of this page by selecting different stylesheets:
+                        <button onclick="toggleTheme('Stylesheet1.css')">Stylesheet 1</button>,
+                        <button onclick="toggleTheme('Stylesheet2.css')">Stylesheet 2</button>,
+                        <button onclick="toggleTheme('Stylesheet3.css')">Stylesheet 3</button>,
+                        <button onclick="toggleTheme('Stylesheet4.css')">Stylesheet 4</button>.
+                    </p>
+                </section>
+
+                <article>
+                    <h2 class="five">No Styles</h2>
+                    <p>
+                        This page uses DIV elements to group different sections of the HTML page. 
+                        Click here to see how the page looks like with no stylesheet: 
+                        <button onclick="toggleTheme('NoStylesheet.css')">No StyleSheet</button>.
+                    </p>
+                </article>
+            </div>
+
+            <aside>
+                <h3 id="seven" class="five">Side-Bar</h3>
+                <p id="six">Lorem ipsum dolor sit amet...</p>
+            </aside>
+        </div>
+
+        <footer>
+            <p id="four">Lorem ipsum dolor sit amet...</p>
+        </footer>
+    </div>
+</body>
+</html>
