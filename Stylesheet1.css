@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+#one {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#two {
+    font-size: x-large;
+    color: white;
+    margin-top: 0;
+}
+
+#three {
+    font-size: xx-large;
+    color: red;
+}
+
+.link {
+    border: 1px solid black;
+    border-radius: 22px;
+    width: 130px;
+    height: 25px;
+    display: flex; /* Changed from grid */
+    justify-content: center; /* Properly centers text */
+    align-items: center; /* Added for better vertical alignment */
+    margin-bottom: 15px;
+    text-decoration: none;
+    padding: 3px 10px; /* Adjusted padding for better appearance */
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+
+li {
+    list-style-type: none;
+}
+
+.link:hover {
+    color: red;
+    background-color: white;
+}
+
+#first-container {
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+        "section nav"
+        "article nav";
+}
+
+section {
+    grid-area: section;
+}
+
+article {
+    grid-area: article;
+}
+
+nav {
+    grid-area: nav;
+}
+
+aside {
+    background-color: peachpuff;
+    padding: 10px;
+    grid-area: aside;
+}
+
+#four {
+    color: white;
+    text-align: center;
+}
+
+.five {
+    color: red;
+    margin-top: 0;
+}
+
+#six {
+    color: red;
+}
+
+.alink {
+    text-decoration: none;
+    color: red;
+}
