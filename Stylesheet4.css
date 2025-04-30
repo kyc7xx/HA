@@ -1,0 +1,85 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    margin: 20px;
+}
+
+h1, h2, h3, p {
+    color: rgb(20, 223, 20);
+}
+
+footer {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#four {
+    color: white;
+}
+
+#main-container {
+    position: relative;
+}
+
+aside {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px; /* Combined padding values */
+    width: 300px;
+    height: 135px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 70px; /* Simplified margin-top */
+    line-height: 1.5; /* Improved readability */
+}
+
+a {
+    color: white;
+}
+
+.link {
+    color: rgb(20, 223, 20);
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-flex; /* Improved compatibility */
+    align-items: center; /* Proper alignment */
+    padding: 5px;
+}
+
+ul {
+    list-style-type: disc; /* Standard list style */
+    color: rgb(20, 223, 20);
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 0; /* Prevents unnecessary negative margin */
+}
+
+.link:hover {
+    color: white;
+}
+
+#one {
+    margin-bottom: 0;
+}
+
+#two {
+    margin-top: 0;
+}
+
+#three {
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 0 10px; /* Simplified padding */
+    text-align: center;
+}
+
+#seven, #six {
+    color: white;
+    font-size: 15px;
+}
